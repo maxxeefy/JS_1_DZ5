@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    margin: 5px;
+}
+
+div {
+    width: 500px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0 20%;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+
+span {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: lightgrey;
+    font-size: 34px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+span:hover {
+    background: grey;
+    color: white;
+}
